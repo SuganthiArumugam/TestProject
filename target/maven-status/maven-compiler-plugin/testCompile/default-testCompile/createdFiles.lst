@@ -1,0 +1,7 @@
+gmailTest\wrappers\wrappers.class
+gmailTest\pageclasses\ComposePage.class
+gmailTest\testcases\Login.class
+DogTest\apitest.class
+gmailTest\pageclasses\Signin.class
+gmailTest\utils\ObjectRepository.class
+gmailTest\wrappers\Genericwrappers.class

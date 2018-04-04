@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17407" started-at="2018-04-03T07:17:29Z" finished-at="2018-04-03T07:17:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17407" started-at="2018-04-03T07:17:29Z" finished-at="2018-04-03T07:17:46Z">
+      <class name="gmailTest.testcases.Login">
+        <test-method status="FAIL" signature="enteremail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:gmailTest.testcases.Login@2e8c1c9b]" name="enteremail" duration-ms="0" started-at="2018-04-03T07:17:46Z" finished-at="2018-04-03T07:17:46Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [enteremail] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [enteremail] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremail -->
+      </class> <!-- gmailTest.testcases.Login -->
+      <class name="DogTest.apitest">
+        <test-method status="PASS" signature="ListAllBreeds()[pri:0, instance:DogTest.apitest@6892b3b6]" name="ListAllBreeds" duration-ms="7604" started-at="2018-04-03T07:17:29Z" finished-at="2018-04-03T07:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListAllBreeds -->
+        <test-method status="PASS" signature="ListAllSubBreeds()[pri:0, instance:DogTest.apitest@6892b3b6]" name="ListAllSubBreeds" duration-ms="2450" started-at="2018-04-03T07:17:37Z" finished-at="2018-04-03T07:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListAllSubBreeds -->
+        <test-method status="PASS" signature="ListBreedImages()[pri:0, instance:DogTest.apitest@6892b3b6]" name="ListBreedImages" duration-ms="4525" started-at="2018-04-03T07:17:39Z" finished-at="2018-04-03T07:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListBreedImages -->
+        <test-method status="PASS" signature="RandomBreedImage()[pri:0, instance:DogTest.apitest@6892b3b6]" name="RandomBreedImage" duration-ms="2770" started-at="2018-04-03T07:17:44Z" finished-at="2018-04-03T07:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomBreedImage -->
+      </class> <!-- DogTest.apitest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
