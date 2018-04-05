@@ -65,7 +65,7 @@
 				<version>3.7.0</version>
 				<configuration>
 				    <compilerVersion>1.8</compilerVersion>
-				       <fork>false</fork>   
+				       <fork>true</fork>   
 					<source>1.8</source>
 					<target>1.8</target>				
        			</configuration>
