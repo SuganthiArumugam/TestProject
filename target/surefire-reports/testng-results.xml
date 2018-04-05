@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40245" started-at="2018-04-04T09:41:54Z" finished-at="2018-04-04T09:42:35Z">
+  <suite name="Suite" duration-ms="84034" started-at="2018-04-05T06:51:25Z" finished-at="2018-04-05T06:52:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="40245" started-at="2018-04-04T09:41:54Z" finished-at="2018-04-04T09:42:35Z">
+    <test name="Test" duration-ms="84034" started-at="2018-04-05T06:51:25Z" finished-at="2018-04-05T06:52:49Z">
       <class name="gmailTest.testcases.Login">
-        <test-method status="PASS" signature="enteremail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:gmailTest.testcases.Login@7c711375]" name="enteremail" duration-ms="32338" started-at="2018-04-04T09:42:02Z" finished-at="2018-04-04T09:42:35Z">
+        <test-method status="PASS" signature="enteremail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:gmailTest.testcases.Login@7c711375]" name="enteremail" duration-ms="42866" started-at="2018-04-05T06:52:06Z" finished-at="2018-04-05T06:52:49Z">
           <params>
             <param index="0">
               <value>
@@ -30,19 +30,19 @@
         </test-method> <!-- enteremail -->
       </class> <!-- gmailTest.testcases.Login -->
       <class name="DogTest.apitest">
-        <test-method status="PASS" signature="ListAllBreeds()[pri:0, instance:DogTest.apitest@54bff557]" name="ListAllBreeds" duration-ms="2834" started-at="2018-04-04T09:41:54Z" finished-at="2018-04-04T09:41:57Z">
+        <test-method status="PASS" signature="ListAllBreeds()[pri:0, instance:DogTest.apitest@54bff557]" name="ListAllBreeds" duration-ms="11231" started-at="2018-04-05T06:51:25Z" finished-at="2018-04-05T06:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ListAllBreeds -->
-        <test-method status="PASS" signature="ListAllSubBreeds()[pri:0, instance:DogTest.apitest@54bff557]" name="ListAllSubBreeds" duration-ms="1151" started-at="2018-04-04T09:41:57Z" finished-at="2018-04-04T09:41:58Z">
+        <test-method status="PASS" signature="ListAllSubBreeds()[pri:0, instance:DogTest.apitest@54bff557]" name="ListAllSubBreeds" duration-ms="1345" started-at="2018-04-05T06:51:36Z" finished-at="2018-04-05T06:51:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ListAllSubBreeds -->
-        <test-method status="PASS" signature="ListBreedImages()[pri:0, instance:DogTest.apitest@54bff557]" name="ListBreedImages" duration-ms="2101" started-at="2018-04-04T09:41:58Z" finished-at="2018-04-04T09:42:00Z">
+        <test-method status="PASS" signature="ListBreedImages()[pri:0, instance:DogTest.apitest@54bff557]" name="ListBreedImages" duration-ms="9980" started-at="2018-04-05T06:51:37Z" finished-at="2018-04-05T06:51:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ListBreedImages -->
-        <test-method status="PASS" signature="RandomBreedImage()[pri:0, instance:DogTest.apitest@54bff557]" name="RandomBreedImage" duration-ms="1791" started-at="2018-04-04T09:42:00Z" finished-at="2018-04-04T09:42:02Z">
+        <test-method status="PASS" signature="RandomBreedImage()[pri:0, instance:DogTest.apitest@54bff557]" name="RandomBreedImage" duration-ms="18590" started-at="2018-04-05T06:51:47Z" finished-at="2018-04-05T06:52:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RandomBreedImage -->
