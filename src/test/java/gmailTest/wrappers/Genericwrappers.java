@@ -8,7 +8,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Genericwrappers implements wrappers {
 	String strErrorMessage;
-	WebDriver driver = new ChromeDriver();
+	WebDriver driver;
+	
 	public void invokeapp()
 	{		
 		String exePath = "D:\\SUGANTHI 2018\\chromedriver.exe";
@@ -16,7 +17,6 @@ public class Genericwrappers implements wrappers {
 	       ChromeOptions chromeOptions = new ChromeOptions();
 	       chromeOptions.setBinary("C:\\Users\\sarumugam1866\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 	       driver = new ChromeDriver(chromeOptions);
-	       //driver=new ChromeDriver();
 	       driver.get("https://mail.google.com/");
 	       driver.manage().window().maximize();
 	}

@@ -2,23 +2,24 @@ package gmailTest.testcases;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import gmailTest.pageclasses.*; 
 
+public class Login {
 
-public class Login extends Signin {
+	Signin signin;
 	@Test
 	@Parameters({"username","password","text"})
 	public void enteremail(String username, String password, String text) throws InterruptedException {
-		invokeapp();
-		username(username);
-		clickNext();
+		signin=new Signin();
+		signin.invokeapp();
+		signin.username(username);
+		signin.clickNext();
 		Thread.sleep(10000);
-		pwd(password);
+		signin.pwd(password);
 		Thread.sleep(100);
-		clickSignin();
+		signin.clickSignin();
 		Thread.sleep(10000);
-		verifyCompose(text);
+		signin.verifyCompose(text);
 	}
 //	
 //public static void main (String args[])
